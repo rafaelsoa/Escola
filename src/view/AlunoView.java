@@ -19,7 +19,7 @@ public class AlunoView {
     
     AlunoController ac = new AlunoController();
     
-    private void run (){
+    void run (){
         int opcao = -1;
       do{
         System.out.println(
@@ -29,7 +29,7 @@ public class AlunoView {
             + "\n 3 - Buscar por Matricula"
             + "\n 4 - Editar"
             + "\n 5 - Excluir"        
-            + "\n 0 - Sair"
+            + "\n 0 - Voltar"
             + "\n=============="
             + "Opção:  "    
         );
@@ -65,12 +65,12 @@ public class AlunoView {
     
     public AlunoView(){}
     
-    public static void main(String[] args) {
-        
-        new AlunoView().run();
-               
-             
-    }
+//    public static void main(String[] args) {
+//        
+//        new AlunoView().run();
+//               
+//             
+//    }
     
 }
 
